@@ -67,7 +67,7 @@ PImage img3;
 	void show(){
 		stroke(40);
 		fill(0,204,204);
-		ellipse(myX,myY,10,10);
+		ellipse(myX+30,myY+60,10,10);
 	}
 void rWalkTo(){
 	if (mouseClicked==true)
@@ -76,7 +76,7 @@ void rWalkTo(){
 }
      
  void appear(){
- 		image(img,x,y);
+ 		image(img,x+30,y+70);
  	}   
  }
  void mouseClicked(){
